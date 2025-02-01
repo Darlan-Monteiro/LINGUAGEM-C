@@ -15,6 +15,7 @@ int main()
     scanf("%d", &ano_nascimento);
     int idade = 2025 - ano_nascimento;
 
+    printf("Você nasceu em %d.\n", ano_nascimento);
     printf("Você tem %d anos de idade.\n", idade);
 
     return 0;
